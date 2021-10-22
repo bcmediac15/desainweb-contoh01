@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desa Wisata</title>
+        <style type="text/css"> 
+            body{
+                background-image: url("images/latar01.jpg");
+                background-repeat: no-repeat;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+            }
+            .navbar{
+                padding: 0px;
+                background-color: white;
+                opacity: 0.5;
+            }
+            .navbar-brand{
+                font-size: 2em;
+                text-decoration: none;
+                padding: 10px 5px 0px 20px;
+                text-shadow: 2px 2px #C0C0C0;
+            }
+            #navbarNav{
+                text-align: right;
+                padding:5px;
+            }
+            ul.navbar-nav{
+                list-style: none;
+            }
+            ul.navbar-nav > li{
+                display:inline-block;
+                padding: 0px 5px 0px 5px;
+            }
+            ul.navbar-nav > li > a{
+                color: black;
+                text-decoration: none;
+            }
+            ul.navbar-nav > li:hover{
+                font-weight: bold;
+            }
+            .footer{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: #ffffff;
+                opacity: 0.5;
+                height: 30px;
+            }
+            .pembuat{
+                text-align: center;
+                font-size: 12px;
+                color: red;
+                padding: 5px;
+            }
+            .text1, .text2{
+                position: relative;
+                top: 200px;
+                left: 5%;
+                font-size: 2em;
+            }
+            .text1{
+                text-shadow: 2px 2px #C0C0C0;
+            }
+            .tombol{
+                position: relative;
+                top: 210px;
+                left:10%;
+                padding: 10px 25px;
+                border-radius: 20px;
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: bold;
+                margin: 4px 2px;
+            }
+            .tombol1{
+                background-color: green;
+                color: white;
+            }
+            .tombol1:hover{
+                color: red;
+            }
+            .tombol2{
+                background-color:yellow;
+                color: black;
+            }
+            .jelajah{
+                background-image: url("images/jelajah.png");
+                width:15px;
+                height:15px;
+                float: left;
+                margin: 0px 10px 0px 0px;
+            }
+            .video{
+                background-image: url("images/video.png");width:15px;height:15px;float: left;
+                margin: 0px 10px 0px 0px;
+            }
+        </style>
+    </HEAD>
+    <BODY>
+        <div class="container">
+            <header>
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">Desa Wisata</a>
+                <div id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Objek Wisata</a></li>
+                        <li><a href="#">Akomodasi</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </header>
+            <konten>
+                <div class="text1">
+                    A MUST VISIT
+                </div>
+                <div class="text2">
+                    The Largest Rice Terraces & Landmark in Bali  
+                </div>
+                <div class="tombolpos">
+                    <button type="button" class="tombol tombol1"><i class="jelajah"></i> Explore</button>
+                    <button type="button" class="tombol tombol2"><i class="video"></i> Video</button>
+                </div>
+
+            </konten>
+            <footer>
+                <div class="footer">
+                    <div class="pembuat">&copy;2021 Desain Web by Kelas B</div>
+                </div>
+            </footer>
+        </div>
+    </BODY>
+</HTML>
